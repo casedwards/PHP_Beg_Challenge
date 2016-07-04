@@ -72,7 +72,20 @@
 	echo "Your current browser is: ";
 	echo $_SERVER["HTTP_USER_AGENT"];
 	?>
-			
-		
+<br>
+<br>
+<h2> Challenge # 7 - Get Current File Name </h2>	
+	<?php
+	//Challenge #7, get current file name
+	echo nl2br("This is just the file name: " . basename($_SERVER['PHP_SELF']) . "\n" );
+	echo "This is the file name with it's directory: " . (__FILE__);
+	?>	
+<br>
+<br>
+<h2> Challenge # 8 - Output ULR into components -  </h2>	
+	<?php 
+	//Challenge #8, output the URL into Scheme, Host, and Path components
+	
+	?>
 </body>
 </html>
